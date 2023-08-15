@@ -3,7 +3,7 @@ package seed
 import (
 	"log"
 
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/models"
+	"github.com/igorariza/go-rickandmorty-login/api/models"
 	"github.com/jinzhu/gorm"
 )
 

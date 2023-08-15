@@ -9,7 +9,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"golang.org/x/crypto/bcrypt"
 
-	sto "github.com/igorariza/Dockerized-Golang_API-MySql-React.js/internal/storage"
+	sto "github.com/igorariza/go-rickandmorty-login/internal/storage"
 )
 
 type User struct {

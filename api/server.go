@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/controllers"
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/seed"
+	"github.com/igorariza/go-rickandmorty-login/api/controllers"
+	"github.com/igorariza/go-rickandmorty-login/api/seed"
 	"github.com/joho/godotenv"
 )
 

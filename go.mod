@@ -1,4 +1,4 @@
-module github.com/igorariza/Dockerized-Golang_API-MySql-React.js
+module github.com/igorariza/go-rickandmorty-login
 
 go 1.19
 

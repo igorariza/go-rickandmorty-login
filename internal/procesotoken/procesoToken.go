@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	jwt "github.com/golang-jwt/jwt/v5"
-	usr "github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/models"
+	usr "github.com/igorariza/go-rickandmorty-login/api/models"
 )
 
 var Email string

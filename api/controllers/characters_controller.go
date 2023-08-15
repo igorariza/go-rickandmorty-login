@@ -3,17 +3,17 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/responses"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"strconv"
 
-	"github.com/gorilla/mux"
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/models"
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/utils/formaterror"
-)
+	"github.com/igorariza/go-rickandmorty-login/api/responses"
 
+	"github.com/gorilla/mux"
+	"github.com/igorariza/go-rickandmorty-login/api/models"
+	"github.com/igorariza/go-rickandmorty-login/api/utils/formaterror"
+)
 
 func (server *Server) CreateCharacter(w http.ResponseWriter, r *http.Request) {
 

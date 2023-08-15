@@ -3,7 +3,7 @@ package middlewares
 import (
 	http "net/http"
 
-	pt "github.com/igorariza/Dockerized-Golang_API-MySql-React.js/internal/procesotoken"
+	pt "github.com/igorariza/go-rickandmorty-login/internal/procesotoken"
 )
 
 // ValidoJWT permite validar JWT que retorna en la petición

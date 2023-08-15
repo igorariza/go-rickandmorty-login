@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api"
+	"github.com/igorariza/go-rickandmorty-login/api"
 )
 
 func main() {

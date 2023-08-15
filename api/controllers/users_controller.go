@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/models"
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/responses"
-	jwt "github.com/igorariza/Dockerized-Golang_API-MySql-React.js/internal/jwt"
-	"github.com/igorariza/Dockerized-Golang_API-MySql-React.js/internal/web"
+	"github.com/igorariza/go-rickandmorty-login/api/models"
+	"github.com/igorariza/go-rickandmorty-login/api/responses"
+	jwt "github.com/igorariza/go-rickandmorty-login/internal/jwt"
+	"github.com/igorariza/go-rickandmorty-login/internal/web"
 )
 
 func (server *Server) LoginUsersHandler(w http.ResponseWriter, r *http.Request) {

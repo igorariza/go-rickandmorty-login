@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/igorariza/Dockerized-Golang_API-MySql-React.js/api/middlewares"
+import "github.com/igorariza/go-rickandmorty-login/api/middlewares"
 
 func (s *Server) initializeRoutes() {
 
