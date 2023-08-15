@@ -74,3 +74,4 @@ func (server *Server) GetAllCharacters(w http.ResponseWriter, r *http.Request) {
 	}
 	responses.JSON(w, http.StatusOK, characters)
 }
+//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
