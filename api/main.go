@@ -1,19 +1,19 @@
-package main
+package api
 
 import (
 	//"fmt"
 
-	"github.com/igorariza/go-rickandmorty-login/api"
+	//"github.com/igorariza/go-rickandmorty-login/api"
 )
 
 func main() {
 
-	go api.MigrateExternalAPI()
+	go MigrateExternalAPI()
 
 	// go func(msg string) {
 	// 	fmt.Println(msg)
 	// }("Starting migration external API")
 
-	api.Run()
+	Run()
 
 }
