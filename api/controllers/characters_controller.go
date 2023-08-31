@@ -12,7 +12,6 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/igorariza/go-rickandmorty-login/api/models"
-	"github.com/igorariza/go-rickandmorty-login/api/utils/formaterror"
 )
 
 func (server *Server) CreateCharacter(w http.ResponseWriter, r *http.Request) {
@@ -35,13 +34,13 @@ func (server *Server) CreateCharacter(w http.ResponseWriter, r *http.Request) {
 	}
 	characterCreated, err := character.SaveCharacter(server.DB)
 
-	if err != nil {
+	// if err != nil {
 
-		formattedError := formaterror.FormatError(err.Error())
+	// 	formattedError := formaterror.FormatError(err.Error())
 
-		responses.ERROR(w, http.StatusInternalServerError, formattedError)
-		return
-	}
+	// 	responses.ERROR(w, http.StatusInternalServerError, formattedError)
+	// 	return
+	// }
 	w.Header().Set("Location", fmt.Sprintf("%s%s/%d", r.Host, r.RequestURI, characterCreated.ID))
 	responses.JSON(w, http.StatusCreated, characterCreated)
 }
